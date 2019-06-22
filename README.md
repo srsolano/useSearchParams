@@ -61,6 +61,10 @@ const MyComponent = () => {
 }
 ```
 
+## Learn more
+
+This hook uses the [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) api
+
 ## License
 
 MIT
