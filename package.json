@@ -1,6 +1,6 @@
 {
   "name": "use-search-params",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Hook to use the URLSearchParams utility methods",
   "repository": {
     "type": "git",
