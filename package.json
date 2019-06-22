@@ -1,0 +1,47 @@
+{
+  "name": "use-search-params",
+  "version": "1.0.0",
+  "description": "A React Hook to use the URLSearchParams utility methods",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srsolano/useSearchParams.git"
+  },
+  "author": "Ferran Solano <ferran@srsolano.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/srsolano/useSearchParams#readme",
+  "bugs": {
+    "url": "https://github.com/srsolano/useSearchParams/issues"
+  },
+  "keywords": [
+    "query-string",
+    "url-search-params",
+    "react-hook",
+    "react"
+  ],
+  "main": "./dist/use-search-params.js",
+  "files": [
+    "/dist",
+    "use-search-params.js"
+  ],
+  "scripts": {
+    "build": "babel src -d ./dist --ignore src/use-search-params.test.js",
+    "dev": "babel src -d ./dist --watch --ignore src/use-search-params.test.js",
+    "test": "jest",
+    "lint": "eslint src",
+    "prepare": "yarn lint && yarn test && yarn build"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@testing-library/react-hooks": "^1.0.3",
+    "eslint": "^6.0.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
+  }
+}

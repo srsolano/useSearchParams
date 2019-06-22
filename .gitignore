@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory
+coverage
+
+# Compiled
+dist
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Editors
+.idea
+.vscode
+
+# Lib
+lib
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# others
+.DS_Store
