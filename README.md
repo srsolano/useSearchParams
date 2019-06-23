@@ -5,6 +5,7 @@ React Hook to use the URLSearchParams utility methods.
 [![version](https://img.shields.io/npm/v/use-search-params.svg)](https://www.npmjs.com/package/use-search-params)
 [![minified size](https://img.shields.io/bundlephobia/min/use-search-params.svg)](https://www.npmjs.com/package/use-search-params)
 [![downloads](https://img.shields.io/npm/dt/use-search-params.svg)](https://www.npmjs.com/package/use-search-params)
+[![build](https://travis-ci.com/srsolano/useSearchParams.svg)](https://travis-ci.com/srsolano/useSearchParams)
 
 ## Install
 
